@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Dražen Antunović">
+        <meta name="description" content="Utilizing skills from course Basics of web and mobile application development on 
+                                          Faculty of Electrical Engineering, Computer Science and Information Technology, Osijek.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/map.css">
+        <title>Sample web page</title>
+    </head>
+    <body>
+        <header>
+            <h1>Sample title</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Intro</a></li>
+                <li><a href="./articles.html">Articles</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./table.html">Table</a></li>
+                <li><strong>Map</strong></li>
+            </ul>
+        </nav>
+        <main>
+           <div id="container">
+               <img src="../resources/map.png" fluid alt="Missing image." usemap="#sample-map" width="1000px" height="1000px">
+               <map name="sample-map">
+                    <area shape="circle" coords="236, 252, 152" alt="Map part"
+                    href="https://example.com/" target="_blank">
+                    <area shape="rect" coords="587, 101, 891, 406" alt="Map part"
+                    href="https://example.com/" target="_blank">
+                    <area shape="rect" coords="85, 598, 390, 902" alt="Map part"
+                    href="https://example.com/" target="_blank">
+                    <area shape="circle" coords="739, 748, 152" alt="Map part"
+                    href="https://example.com/" target="_blank">
+                </map>
+           </div>
+        </main>
+        <footer>
+            <br><br><br>
+            <span>
+                Page made by <a href="https://www.github.com/Stakljar" target="_blank">Dražen Antunović</a>
+            </span>
+            <br><br><br><br>
+        </footer>
+    </body>
+</html>
